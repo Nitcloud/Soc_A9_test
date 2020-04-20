@@ -39,7 +39,7 @@ if { [getprojects -type hw] == "" } {
 	openhw $ws_path/[getprojects -type hw]/system.hdf 
 }
 
-get project param
+#get project param
 set fp [open "./Makefile" r]
 while { [gets $fp data] >= 0 } \
 {
@@ -51,21 +51,20 @@ while { [gets $fp data] >= 0 } \
 				set cpu "ps7_cortexa9_0"
 			}
 			if { $app == "HelloWorld" } {
-				set app "{Hello World}"
+				set app "Hello World"
 			}
     	}
     }
 }
 close $fp
 
-if { [getprojects -type bsp] == "" } \
-{
+if { [getprojects -type bsp] == "" } {
 	createbsp -name $bsp_name -hwproject $hw_name -proc $cpu -os $os
-	if { [getprojects -type app] == "" } \
-	{
-		createapp -name $prj_name -hwproject $hw_name -bsp $bsp_name \
-		-proc $cpu -os $os -lang C -app $app
-	}
+}
+
+if { [getprojects -type app] == "" } {
+	createapp -name $prj_name -hwproject $hw_name -bsp $bsp_name \
+	-proc $cpu -os $os -lang C -app $app
 }
 
 proc ope {} {
@@ -108,4 +107,3 @@ proc ope {} {
 }
 
 ope
-xsct
