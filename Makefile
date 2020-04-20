@@ -4,7 +4,7 @@ xilinx
 ///////////////////////////LIB Config///////////////////////////
 #/*****************/if include Soc,you can choose none[ cortexM0 cortexM3 cortexA9 ]
 Soc
-cortexA9
+cortexA9 -prj_name test -os standalone -app HelloWorld
 #/*****************/if include DSP,you can choose 0/1
 DSP
 0
