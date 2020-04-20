@@ -16,7 +16,7 @@ projects -build
 # Connect to a remote hw_server
 connect
 # Select a target
-targets 2
+targets 2 -timeout 2
 proc software_down {prj_name} {
 	#System Reset
 	rst -system
