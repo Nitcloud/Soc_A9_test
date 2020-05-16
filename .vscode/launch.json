@@ -6,7 +6,7 @@
             "type": "cppdbg",                                                       
 			"request": "launch",                         
 			//要调试的程序（在下面的参数中指定了，这里的没有意义）                           
-            "program": "${workspaceFolder}/user/Software/src/test/Debug/test.elf",   
+            "program": "D:/project/FPGA/My_FPGA/TCL_project/Test/Soc_A9_test/user/Software/src/test/Debug/test.elf",   
             "args": [],                                                             
             "stopAtEntry": false,                                                  
             "cwd": "${workspaceFolder}",
@@ -15,20 +15,14 @@
             "externalConsole": true,  
 			"MIMode": "gdb",
  			//调试工具原始路径
-			// "miDebuggerPath": "D:\\APP\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe",
-			"miDebuggerPath": "D:\\APP\\vivado_18_3\\SDK\\2018.3\\gnu\\aarch64\\nt\\aarch64-none\\bin\\aarch64-none-elf-gdb.exe",
+            "miDebuggerPath": "D:\\APP\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe",
 			//目标架构，此参数必须要有
 			"targetArchitecture": "arm", 
 			// 进入GDB以后，自动执行的一些配置
-            "setupCommands": [   
-			{
-				"description": "切到调试文件(.elf)目录下",
-				"text": "cd ${workspaceFolder}/user/Software/src/test/Debug", 
-				"ignoreFailures": false
-			},            
+            "setupCommands": [               
 			{
 				"description": "选择调试文件(.elf)到gdb",
-				"text": "file test.elf", 
+				"text": "file D:/project/FPGA/My_FPGA/TCL_project/Test/Soc_A9_test/user/Software/src/test/Debug/test.elf", //此处不能使用${workspaceFolder}，因为windows下分隔符是'\\'，gdb识别不出来
 				"ignoreFailures": false
 			},
 			{
@@ -50,7 +44,8 @@
 				"description":"下载代码到MCU",
 				"text": "load" ,              
 				"ignoreFailures": false                                      
-			}],
+			}
+            ],
             //"preLaunchTask": "build", // 在调试前预先执行的任务，此处是tasks.json中的
         }
     ]
