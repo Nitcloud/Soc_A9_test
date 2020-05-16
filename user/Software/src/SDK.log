@@ -1,88 +1,10 @@
-20:24:35 INFO  : Registering command handlers for SDK TCF services
-20:24:35 INFO  : Result from executing command 'getProjects': 
-20:24:39 ERROR : xsct server communication channel has closed unexpectedly.
-java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(SocketInputStream.java:209)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
-	at java.io.FilterInputStream.read(FilterInputStream.java:107)
-	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:185)
-	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
-	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:327)
-20:26:17 INFO  : Registering command handlers for SDK TCF services
-20:26:17 INFO  : Result from executing command 'getProjects': SDK_Platform
-20:26:17 INFO  : Result from executing command 'getProjects': SDK_Platform
-20:26:21 ERROR : xsct server communication channel has closed unexpectedly.
-java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(SocketInputStream.java:209)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
-	at java.io.FilterInputStream.read(FilterInputStream.java:107)
-	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:185)
-	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
-	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:327)
-20:31:49 INFO  : Registering command handlers for SDK TCF services
-20:31:49 INFO  : Result from executing command 'getProjects': SDK_Platform
-20:31:49 INFO  : Result from executing command 'getProjects': SDK_Platform
-20:31:53 INFO  : Result from executing command 'getProjects': 
-20:31:54 INFO  : Restoring global repository preferences: 
+18:29:47 INFO  : Registering command handlers for SDK TCF services
+18:29:47 INFO  : Result from executing command 'getProjects': 
+18:30:12 INFO  : Result from executing command 'getProjects': 
+18:30:14 INFO  : Restoring global repository preferences: 
 		 C:\Users\sterben\Desktop\CortexM3_IP\user\Software\data\Arm_sw_repository
-20:31:54 WARN  : Invalid repository path C:\Users\sterben\Desktop\CortexM3_IP\user\Software\data\Arm_sw_repository.
-20:31:57 INFO  : Result from executing command 'getProjects': 
-20:31:57 ERROR : xsct server communication channel has closed unexpectedly.
-java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(SocketInputStream.java:209)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
-	at java.io.FilterInputStream.read(FilterInputStream.java:107)
-	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:185)
-	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
-	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:327)
-20:33:03 INFO  : Registering command handlers for SDK TCF services
-20:33:03 INFO  : Result from executing command 'getProjects': SDK_Platform
-20:33:03 INFO  : Result from executing command 'getProjects': SDK_Platform
-20:33:06 INFO  : Result from executing command 'getProjects': BSP_package
-20:33:16 ERROR : xsct server communication channel has closed unexpectedly.
-java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(SocketInputStream.java:209)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
-	at java.io.FilterInputStream.read(FilterInputStream.java:107)
-	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:185)
-	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
-	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:327)
-20:34:40 INFO  : Registering command handlers for SDK TCF services
-20:34:40 INFO  : Result from executing command 'getProjects': SDK_Platform
-20:34:40 INFO  : Result from executing command 'getProjects': SDK_Platform
-20:34:44 INFO  : Result from executing command 'getProjects': BSP_package
-20:34:44 INFO  : Result from executing command 'getProjects': 
-20:34:44 INFO  : Restoring global repository preferences: 
-		 C:\Users\sterben\Desktop\CortexM3_IP\user\Software\data\Arm_sw_repository
-20:34:44 WARN  : Invalid repository path C:\Users\sterben\Desktop\CortexM3_IP\user\Software\data\Arm_sw_repository.
-20:34:48 ERROR : xsct server communication channel has closed unexpectedly.
-java.net.SocketException: Unrecognized Windows Sockets error: 0: recv failed
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:170)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
-	at java.io.FilterInputStream.read(FilterInputStream.java:107)
-	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:185)
-	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:84)
-	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:327)
-20:35:39 INFO  : Registering command handlers for SDK TCF services
-20:35:39 INFO  : Result from executing command 'getProjects': SDK_Platform
-20:35:39 INFO  : Result from executing command 'getProjects': SDK_Platform
-20:35:42 INFO  : Result from executing command 'getProjects': BSP_package
-20:35:42 INFO  : Result from executing command 'getProjects': test
-20:37:04 INFO  : Result from executing command 'getProjects': test
-20:37:15 INFO  : Result from executing command 'getProjects': test
-20:37:21 ERROR : xsct server communication channel has closed unexpectedly.
+18:30:14 WARN  : Invalid repository path C:\Users\sterben\Desktop\CortexM3_IP\user\Software\data\Arm_sw_repository.
+18:30:16 ERROR : xsct server communication channel has closed unexpectedly.
 java.net.SocketException: Connection reset
 	at java.net.SocketInputStream.read(SocketInputStream.java:209)
 	at java.net.SocketInputStream.read(SocketInputStream.java:141)

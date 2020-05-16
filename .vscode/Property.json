@@ -1,0 +1,14 @@
+{
+	"FPGA_VERSION": "xilinx",
+	"PRJ_NAME": {
+		"FPGA": "template"
+	},
+	"SOC_MODE": {
+		"soc": "cortexA9",
+		"bd_file": "none",
+		"app": "hellow world",
+		"os": "standalone"
+	},
+	"enableShowlog": false,
+	"Device": "xc7z020clg400-2"
+}
