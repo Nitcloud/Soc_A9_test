@@ -1,12 +1,13 @@
 {
 	"FPGA_VERSION": "xilinx",
 	"PRJ_NAME": {
-		"FPGA": "template"
+		"FPGA": "template" ,
+		"SOC": "UART"
 	},
 	"SOC_MODE": {
-		"soc": "cortexA9",
-		"bd_file": "none",
-		"app": "hellow world",
+		"soc": "ps7_cortexa9_0",
+		"bd_file": "zynq_default",
+		"app": "Hello World",
 		"os": "standalone"
 	},
 	"enableShowlog": false,
